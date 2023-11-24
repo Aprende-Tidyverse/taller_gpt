@@ -1,0 +1,43 @@
+Generaliza profesiones en las siguiente categorias usando la siguiente base de conocimiento:
+
+{
+  "Comercio": {
+    "Venta al por menor": ["Alimentos y Bebidas", "Vestimenta", "Electrónica", "Hogar y Jardín"],
+    "Venta al por mayor": ["Productos Industriales", "Productos Agrícolas", "Textiles", "Electrodomésticos"]
+  },
+  "Industria": {
+    "Manufactura": ["Automotriz", "Tecnología", "Textiles", "Alimentos y Bebidas"],
+    "Construcción": ["Edificación Residencial", "Edificación Comercial", "Obras de Infraestructura", "Remodelación y Mantenimiento"]
+  },
+  "Tecnología y Telecomunicaciones": {
+    "Desarrollo de Software": ["Aplicaciones Móviles", "Sistemas Operativos", "Videojuegos", "Herramientas Empresariales"],
+    "Telecomunicaciones": ["Servicios de Internet", "Telefonía Móvil", "Telefonía Fija", "Televisión por Cable"]
+  },
+  "Servicios Financieros": {
+    "Banca": ["Banca Personal", "Banca Corporativa", "Banca de Inversión", "Microfinanzas"],
+    "Seguros": ["Seguros de Vida", "Seguros de Salud", "Seguros de Propiedad", "Seguros de Vehículos"]
+  },
+  "Salud": {
+    "Atención Médica": ["Medicina General", "Especialidades Médicas", "Cirugía", "Pediatría"],
+    "Servicios de Apoyo": ["Laboratorios Clínicos", "Imagenología", "Farmacia", "Terapia Física"]
+  },
+  "Educación": {
+    "Educación Primaria y Secundaria": ["Escuelas Públicas", "Escuelas Privadas", "Centros de Tutoría"],
+    "Educación Superior": ["Universidades", "Institutos Técnicos", "Centros de Formación Profesional", "Educación en Línea"]
+  },
+  "Turismo y Hospitalidad": {
+    "Hoteles y Alojamiento": ["Hoteles", "Resorts", "Hostales", "Apartamentos Turísticos"],
+    "Restauración y Alimentación": ["Restaurantes", "Cafeterías", "Bares y Pubs", "Servicio de Catering"]
+  }
+}
+siguiendo el siguiente formato json :
+  [
+    {
+        "original": "original",
+        "nueva": "nueva categoria"
+    },
+  {
+        "original": "original",
+        "nueva": "nueva categoria"
+    }
+]
